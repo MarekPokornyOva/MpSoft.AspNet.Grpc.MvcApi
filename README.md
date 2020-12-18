@@ -10,6 +10,7 @@ MpSoft.AspNet.Grpc.MvcApi is library generating ASP.NET MVC API controllers for 
 
 ### Purpose
 The gRPC is great for inter-services data communication. However, it's designed for modern technologies (namely HTTP/2) and its usage might break the service availability for legacy systems. This package brings the fallback feature to be available for REST clients.
+Please note, design-time source generator is available on https://www.nuget.org/packages/MpSoft.AspNet.Grpc.MvcApiGenerator.
 
 ### Features
 * Generates MVC API controller for the gRPC service's methods
